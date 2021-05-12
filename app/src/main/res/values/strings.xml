@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name" translatable="false">MyIMDB</string>
+
+    <!--Main Menu Sort By-->
+    <string name="action_sort_most_popular">Most Popular</string>
+    <string name="action_sort_top_rated">Top Rated</string>
+    <string name="action_sort_upcoming">Upcoming</string>
+    <string name="action_sort_favourites">Favourites</string>
+
+    <!--Grid Item-->
+    <string name="label_text_placeholder" translatable="false">Movie Title</string>
+    <string name="label_content_description_poster">Poster Image</string>
+
+    <!--Action Buttons-->
+    <string name="action_sort_label" translatable="false">Sort</string>
+    <string name="action_settings_label" translatable="false">Settings</string>
+
+
+    <!--Error Log Messages-->
+    <string name="error_network_message">"Please check your internet connection"</string>
+
+    <!--Detail Screen-->
+    <string name="label_overview">Overview</string>
+    <string name="label_released">Released On</string>
+    <string name="label_rating_total" translatable="false">/10</string>
+    <string name="label_content_description_favicon">Favourites Icon</string>
+    <string name="label_trailers">Trailers</string>
+    <string name="label_reviews">Reviews</string>
+    <string name="label_share">Share</string>
+    <string name="label_default" translatable="false">---</string>
+    <string name="error_trailer_unavailable">No Trailer Available</string>
+    <string name="error_review_unavailable">No Review Available</string>
+
+    <!--Dummy Details-->
+    <string name="movie_title_dummy_text" translatable="false">Hotel Transylvania 3:Summer Vacation</string>
+    <string name="movie_rating_dummy_text" translatable="false">6.9</string>
+    <string name="movie_overview_dummy_text" translatable="false">A lot of Reviews and a lot of reviews and a lot of reviews.
+        A lot of movies with a lot of reviews,never get enough of the overviews ,more and more and more text about overview</string>
+    <string name="movie_release_date_dummy_text" translatable="false">
+        08-08-2019
+    </string>
+    <string name="movie_author_reviews_dummy_text" translatable="false">David Odari</string>
+    <string name="movie_content_reviews_dummy_text" translatable="false">The Movie Needs a little more zazz</string>
+
+    <!--Preferences-->
+    <string name="pref_settings">Settings</string>
+    <string name="pref_language_title">Language</string>
+    <string name="pref_language_key" translatable="false">language</string>
+
+    <!--Preference Labels-->
+    <string name="pref_language_label_english" translatable="false">English</string>
+    <string name="pref_language_label_german" translatable="false">German</string>
+    <string name="pref_language_label_chinese" translatable="false">Chinese</string>
+    <string name="pref_language_label_french" translatable="false">French</string>
+
+    <!--Preference Values-->
+    <string name="pref_language_val_english" translatable="false">en-US</string>
+    <string name="pref_language_val_german" translatable="false">de-DE</string>
+    <string name="pref_language_val_chinese" translatable="false">zh-CN</string>
+    <string name="pref_language_val_french" translatable="false">fr-FR</string>
+    <string name="label_content_description">Favourites Icon</string>
+
+    <!--Favs-->
+    <string name="default_favs">View Favourites Here</string>
+    <string name="label_added_favs">Added To Favourites</string>
+    <string name="label_removed_favs">Removed from Favourites</string>
+
+    <!--Attribution-->
+    <string name="content_description_powered_by">Powered by The Movie Database</string>
+</resources>

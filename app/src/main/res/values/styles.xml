@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <!-- Base application theme. -->
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="DetailViewMarginStyle">
+        <item name="android:layout_marginBottom">@dimen/size_medium</item>
+        <item name="android:layout_marginEnd">@dimen/size_default</item>
+        <item name="android:layout_marginStart">@dimen/size_default</item>
+        <item name="android:layout_marginTop">@dimen/size_medium</item>
+    </style>
+
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_smallest">2dp</dimen>
+    <dimen name="size_small">4dp</dimen>
+    <dimen name="size_default">8dp</dimen>
+    <dimen name="size_medium">16dp</dimen>
+    <dimen name="size_large">32dp</dimen>
+    <dimen name="size_extra_large">72dp</dimen>
+
+    <dimen name="size_width">168dp</dimen>
+    <dimen name="size_height">230dp</dimen>
+    <dimen name="size_layout">180dp</dimen>
+
+
+
+    <!--items xml-->
+    <dimen name="size_frame_layout">48dp</dimen>
+
+    <!--Detail Activity-->
+    <dimen name="size_app_bar_height">200dp</dimen>
+    <dimen name="size_image_view_poster">120dp</dimen>
+
+    <!--Video -->
+    <dimen name="video_width">150dp</dimen>
+    <dimen name="video_height">100dp</dimen>
+
+    <dimen name="activityPadding">16dp</dimen>
+    <dimen name="placeholderImage">60dp</dimen>
+    <dimen name="placeholderTextHeight">8dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+</resources>

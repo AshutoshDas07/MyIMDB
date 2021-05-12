@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_movie"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="4dp"
+    android:backgroundTint="@color/background"
+    android:focusable="true"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="@dimen/size_small">
+    <LinearLayout
+        android:id="@+id/rl_parent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/movie_selector"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_poster_image1"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/label_content_description_poster"
+            android:scaleType="fitXY"
+            android:transitionName="poster"
+            android:elevation="@dimen/size_large"
+            android:padding="2dp"/>
+
+        <ImageView
+            android:id="@+id/iv_poster_image2"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@id/iv_poster_image1"
+            android:contentDescription="@string/label_content_description_poster"
+            android:scaleType="fitXY"
+            android:transitionName="poster"
+            android:elevation="@dimen/size_large"
+            android:padding="2dp"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

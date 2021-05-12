@@ -1,0 +1,67 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion sdkVersion
+    defaultConfig {
+        applicationId "com.example.myIMDB"
+        minSdkVersion 22
+        targetSdkVersion sdkVersion
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        //        An API Key will be required for a successful build,for more info checkout the README
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            buildConfigField("String", "API_KEY", "\"44a6a21da0e227f7c4f37eda4ec8d770\"")
+        }
+        debug {
+            buildConfigField("String", "API_KEY", "\"44a6a21da0e227f7c4f37eda4ec8d770\"")
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+//    Support Libraries
+    implementation support.appcompat_v7
+    implementation support.constraint_layout
+    implementation support.design
+    implementation support.preference_v7
+    implementation support.recyclerview
+    implementation support.cardview
+    implementation support.palette_v7
+    implementation 'com.facebook.shimmer:shimmer:0.1.0@aar'
+
+
+//    Google Libraries
+    implementation google.gson
+
+//    Architecture Components
+    implementation architecture_component.extensions
+    implementation architecture_component.room
+    implementation architecture_component.paging
+    annotationProcessor architecture_component.room_compiler
+    annotationProcessor architecture_component.lifecycle_compiler
+
+//    3rd Party Libraries
+    implementation thirdparty.parceler
+    implementation thirdparty.butterknife
+    implementation thirdparty.styleabletoast
+    annotationProcessor thirdparty.parceler_compiler
+    annotationProcessor thirdparty.butterknife_compiler
+
+//    Squareup Libraries
+    implementation squareup.picasso
+    implementation squareup.retrofit2
+    implementation squareup.okhttp3
+    implementation squareup.gson_converter
+
+
+//    Testing Lib
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation support.test_runner
+    androidTestImplementation support.espresso_core
+}
